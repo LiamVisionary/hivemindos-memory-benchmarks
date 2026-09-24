@@ -1,0 +1,16 @@
+answered 500
+Hive (Sonnet 4.5), 27e1b10d    ex-pref 447/470 = 95.1% | incl-pref 473/500 = 94.6%
+Hive before (91.1% run)        ex-pref 428/470 = 91.1% | incl-pref 451/500 = 90.2%
+Sibyl plugin, Sonnet 4.5       ex-pref 436/470 = 92.8% | incl-pref 461/500 = 92.2%
+Sibyl, Sonnet 4.6              ex-pref 430/470 = 91.5% | incl-pref 452/500 = 90.4%
+Sibyl, Opus 4.6                ex-pref 448/470 = 95.3% | incl-pref 475/500 = 95.0%
+  vs Sibyl plugin, Sonnet 4.5: ours-only 21, theirs-only 10, exact McNemar p=0.0708
+  vs Sibyl, Sonnet 4.6: ours-only 27, theirs-only 10, exact McNemar p=0.0076
+  vs Sibyl, Opus 4.6: ours-only 18, theirs-only 19, exact McNemar p=1.0000
+  vs Hive before: ours-only 28, theirs-only 9, exact McNemar p=0.0026
+single-session-user        hive:69/70 Sibyl plugin:68/70 Sibyl:70/70 Sibyl:70/70
+single-session-assistant   hive:56/56 Sibyl plugin:56/56 Sibyl:55/56 Sibyl:56/56
+knowledge-update           hive:77/78 Sibyl plugin:72/78 Sibyl:73/78 Sibyl:72/78
+multi-session              hive:117/133 Sibyl plugin:114/133 Sibyl:115/133 Sibyl:124/133
+temporal-reasoning         hive:128/133 Sibyl plugin:126/133 Sibyl:117/133 Sibyl:126/133
+single-session-preference  hive:26/30 Sibyl plugin:25/30 Sibyl:22/30 Sibyl:27/30
